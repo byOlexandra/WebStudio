@@ -1,25 +1,15 @@
 {
   "name": "goit-markup-hw-06",
   "version": "1.0.0",
-  "description": "My first homework in GoIT",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/WebStudio/",
     "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/byOlexandra/goit-markup-hw-06.git"
-  },
-  "keywords": [],
   "author": "Oleksandra Starovatova <starovatovasasha@gmail.com>",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/byOlexandra/goit-markup-hw-06/issues"
-  },
-  "homepage": "https://github.com/byOlexandra/goit-markup-hw-06#readme",
+  "type": "module",
   "devDependencies": {
     "vite": "^7.3.1",
     "vite-plugin-html-inject": "^1.1.2"
